@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: shared-happiness
+title: Riosedream
 email: devbighero@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   my blog with jekyll
@@ -24,36 +24,12 @@ encoding: utf-8
 # username
 #person account
 person_account: [
-  # twitter
-  #{
-    #"type": "twitter",
-    #"username": "twitter",
-    #"link": ""
-  #},
-  # facebook
-  #{
-    #"type": "facebook",
-    #"username": "facebook",
-    #"link": ""
-  #},
   # sina
   {
     type: "sina",
     username: "shared-happiness",
     link: "shared-happiness"
   },
-  # wechat
-  #{
-    #"type": "wechat",
-   # "username": "wechat",
-    #"link": ""
-  #},
-  # qq
-  #{
-    #"type": "qq",
-    #"username": "qq",
-    #"link": ""
-  #},
   # zhihu
   {
     type: "zhihu",
@@ -94,19 +70,19 @@ exclude:
 header_menu: [
   {
     name: "Home",
-    link: "/"
+    link: "#"
   },
   {
     name: "About",
-    link: "/about.html"
+    link: "#"
   },
   {
     name: "Production",
-    link: "/production.html"
+    link: "#"
   },
   {
     name: "Resume",
-    link: "/resume.html"
+    link: "#"
   }
 ]
 
