@@ -28,7 +28,7 @@ person_account: [
   {
     type: "sina",
     username: "shared-happiness",
-    link: "shared-happiness"
+    link: "#"
   },
   # zhihu
   {
